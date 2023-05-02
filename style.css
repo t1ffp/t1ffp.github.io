@@ -1,0 +1,25 @@
+body {
+  background-color: #000;
+  font-family: "Special Elite", sans-serif;
+  font-size: 30px;
+}
+
+.container{
+  color: whitesmoke;
+}
+
+#startbt {
+  transition: background-image: url(skybg.jpg) 6s;
+}
+
+img{
+    transition: transform .2s;
+    width: 256px; height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+img:hover{
+    transform:scale(1.3);
+}

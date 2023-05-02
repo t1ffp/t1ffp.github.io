@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<span class="type" style="--n:72">Interesting... one last question, what do you wish for the most in life? 
+</span>
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="end.html" class="form-container">
+
+
+    <textarea placeholder="Type message.." name="msg" required>
+
+    </textarea>
+
+    <button onclick="location.href = 'end.html';" type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script src="main.js"></script>
+<img src="candle.gif">
+</body>
+</html>

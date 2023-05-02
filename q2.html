@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<span class="type" style="--n:70">Tell me for I am cursed with blindness- what's the color of your eyes?
+</span>
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="q3.html" class="form-container">
+
+
+    <textarea placeholder="Type message.." name="msg" required>
+
+    </textarea>
+
+    <button onclick="location.href = 'q3.html';" type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script src="main.js"></script>
+<img src="candle.gif">
+</body>
+</html>

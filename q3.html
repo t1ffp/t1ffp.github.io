@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<span class="type" style="--n:66">Out of the following cards, which one resonates with you the most?
+</span>
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="q4.html" class="form-container">
+
+
+    <textarea placeholder="Type message.." name="msg" required>
+
+    </textarea>
+
+    <button onclick="location.href = 'q4.html';" type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script src="main.js"></script>
+<img src="cards.gif" width="600px" height="auto">
+</body>
+</html>
